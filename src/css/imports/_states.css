@@ -5,7 +5,6 @@ input:focus, textarea:focus, a:focus, button:focus {
 }
 
 .raise {
-  transition: var(--hover-transition);
   transform: translateY(0) translateZ(0);
 }
 

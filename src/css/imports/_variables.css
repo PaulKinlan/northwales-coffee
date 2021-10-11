@@ -33,5 +33,5 @@
 
 	/* Miscelaneous */
 	--border-radius: .25rem;
-	--hover-transition: all 150ms ease;
+	--hover-transition: none 150ms ease;
 }
