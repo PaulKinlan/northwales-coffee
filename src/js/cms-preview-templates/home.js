@@ -34,10 +34,6 @@ export default class PostPreview extends React.Component {
                 <p>{product.get("text")}</p>
               </div>)}
             </div>
-
-            <div className="tc">
-              <a href="#" className="btn raise">See all products</a>
-            </div>
           </div>
         </div>
 
