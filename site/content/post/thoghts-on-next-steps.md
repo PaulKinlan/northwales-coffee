@@ -1,5 +1,5 @@
 ---
-title: Thoghts on next steps
+title: Thoughts on next steps
 date: 2021-12-14T13:43:32.251Z
 description: Some thoughts on how to use this blog.
 ---
