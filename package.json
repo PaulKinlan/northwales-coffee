@@ -19,8 +19,8 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:cms": "cp ./src/cms.html ./site/static/admin/index.html",
     "build:esbuild": "npm run build:esbuild-css && npm run build:esbuild-js",
-    "build:esbuild-css": "esbuild --bundle src/css/main.css --outfile=./site/static/css/main.css",
-    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --outdir=./site/static/  --loader:.js=jsx"
+    "build:esbuild-css": "esbuild --bundle src/css/main.css --outfile=./site/static/css/main.css --minify",
+    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --outdir=./site/static/ --loader:.js=jsx --minify"
   },
   "author": "",
   "license": "MIT",
