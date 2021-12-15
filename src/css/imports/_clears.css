@@ -1,7 +1,7 @@
 .cf:before,
 .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
-.cf {       *zoom: 1; }
+.cf {       /**zoom: 1; don't need zoom and this is n IE hack*/} 
 
 .cl { clear: left; }
 .cr { clear: right; }
