@@ -20,7 +20,7 @@
     "build:cms": "cp ./src/cms.html ./site/static/admin/index.html",
     "build:esbuild": "npm run build:esbuild-css && npm run build:esbuild-js",
     "build:esbuild-css": "esbuild --bundle src/css/main.css --outfile=./site/static/css/main.css --minify",
-    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --splitting --outdir=./site/static/ --loader:.js=jsx --minify"
+    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --splitting --format=esm --outdir=./site/static/ --loader:.js=jsx --minify"
   },
   "author": "",
   "license": "MIT",
