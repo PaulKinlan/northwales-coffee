@@ -19,7 +19,7 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:esbuild": "run-p build:esbuild**",
     "build:esbuild-css": "esbuild --bundle src/css/main.css --outfile=./dist/css/out.css",
-    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --outdir=./dist/js/"
+    "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --outdir=./dist/js/  --loader:.js=jsx"
   },
   "author": "",
   "license": "MIT",
