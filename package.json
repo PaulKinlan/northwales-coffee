@@ -1,5 +1,5 @@
 {
-  "name": "victor-hugo",
+  "name": "NorthwalesCoffee",
   "version": "1.0.0",
   "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
   "repository": "netlify/victor-hugo",
@@ -22,7 +22,7 @@
     "build:esbuild-css": "esbuild --bundle src/css/main.css --outfile=./site/static/css/main.css --minify",
     "build:esbuild-js": "esbuild src/js/cms.js src/index.js --bundle --splitting --format=esm --outdir=./site/static/ --loader:.js=jsx --minify"
   },
-  "author": "",
+  "author": "Paul Kinlan",
   "license": "MIT",
   "devDependencies": {
     "date-fns": "^1.30.1",
